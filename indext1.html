@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game of Thrones Story</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+
+  <audio id="background-music" loop>
+    <source src="music/rainofcastamere.mp3" type="audio/mpeg">
+  </audio>
+
+ 
+  <div id="start-screen" class="start-screen">
+    <h1>Game of Thrones</h1>
+    <button id="start-button" class="start-button">Start Story</button>
+  </div>
+
+ 
+  <div id="story-container" class="container hidden">
+    <h1>Game of Thrones Story</h1>
+    <div id="story-text" class="story-text"></div>
+    <button id="next-button" class="next-button">Next</button>
+  </div>
+
+
+  <script src="script2.js"></script>
+
+  
+  <script
+    src="https://embed.chaindesk.ai/chaindesk.min.js"
+    chatbotId="your-chatbot-ID"
+    theme="dark">
+  </script>
+<script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="dYCRmxeVzrXOUAJJ1d14c";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
+</body>
+</html>
